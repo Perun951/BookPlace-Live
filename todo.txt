@@ -1,11 +1,9 @@
--payment
--new search button
 -search filter
+-add staff
 -search users
--carousels frontpage
--X cautare vocala
--gogle recapcha
+-despartire useri
+-gogle recapcha(trb domeniu)
 -newsletter(autor,editura)
 -contact
--orders(sortate dupa autor si categorie)
 -nr downloads
+-fix products title
