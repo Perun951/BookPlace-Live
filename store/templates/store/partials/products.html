@@ -14,8 +14,8 @@
                                     <p><strong><h5>{{ product.title }}</h5></strong></p>  
                                 </div>
                             </a>
-                            <div class="d-flex align-self-end">
-                                <div class="d-flex me-auto justify-content-start" style="max-height: 100px;">
+                            <div class="d-flex align-self-end gap-5">
+                                <div class="me-auto justify-content-start" style="height: 100px;max-width: 230px;">
                                     <a href="{% url 'product_detail'  product.category.slug product.slug %}" style="color: black; text-decoration: none;max-width: 230px;max-height: 100px;">
                                         <p class="card-text text-success" align="left"><i class="fa-solid fa-user"></i>&nbsp;{{product.author}}</p>
                                         <p align="left"><span class="text-success"><i class="fa-solid fa-star"></i>&nbsp;{{ product.get_rating }}/10 [{{ product.reviews.count }}]</span></p> 
@@ -23,12 +23,12 @@
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="{{ product.pdf.url }}" download class="d-flex align-self-start row mb-2" style="text-decoration: none;">
+                                    <a href="{{ product.pdf.url }}" download class="d-flex align-self-start justify-content-end row mb-2" style="text-decoration: none;">
                                         <button class="btn d-flex bg-success align-items-center justify-content-center text-light border-o rounded-4 shadow p-2" style="width: 60px;height: 60px;">
                                             <i class="fa-sharp fa-solid fa-download fa-2xl"></i>
                                         </button>
                                     </a>
-                                    <a href="{% url 'user_wishlist' product.id %}" class="d-flex align-self-end row mt-2" style="text-decoration: none;">
+                                    <a href="{% url 'user_wishlist' product.id %}" class="d-flex align-self-end justify-content-end row mt-2" style="text-decoration: none;">
                                         <button class="btn d-flex bg-success align-items-center justify-content-center text-light border-o rounded-4 shadow p-2" style="width: 60px;height: 60px;">
                                             <i class="fa-sharp fa-solid fa-heart fa-2xl"></i>
                                         </button>
@@ -37,11 +37,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-center bg-success rounded-bottom-4 border-0" style="width: 400px;padding-bottom: 15px;margin-left: -16px;">
-                        <a href="{% url 'publisher_detail' product.user.id %}" style="text-decoration: none;color: white;">
+                    <a href="{% url 'publisher_detail' product.user.id %}" style="text-decoration: none;color: white;">
+                        <div class="card-footer d-flex justify-content-center bg-success rounded-bottom-4 border-0" style="width: 400px;padding-bottom: 15px;margin-left: -16px;">
                             <p class="card-text" align="left"><i class="fa-solid fa-at"></i>&nbsp;{% firstof product.user.get_full_name product.user.username %}</p>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
         </div>
     {% endfor %}

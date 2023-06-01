@@ -18,6 +18,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="../../../media/photo_2023-02-08_13-03-20.jpg" rel="icon" type="image/png">
         <style>body{font-family: 'Poppins';}</style>
     </head>
     <body style="background-color:  	white;">
@@ -74,7 +75,7 @@
                 </div> 
                 {% if request.user.is_authenticated %}
                 <div class="p-3" style="height: 100px;margin-top: -20px;">
-                    <a href="{% url 'my_store' %}" class="btn btn-success d-flex align-items-center justify-content-center text-bg-success bg-body-success rounded-4 shadow" style="color: white; text-decoration: none; margin-top: 1vh;width: 100%; height: 100%;"><button class="text-bg-success rounded mx-auto border-0 rounded" style="font-size: larger; width: 100%;height: 100%;"><i class="fa-solid fa-shop"></i>&nbsp;Cartile mele</button></a>
+                    <a href="{% url 'my_store' %}" class="btn btn-success d-flex align-items-center justify-content-center text-bg-success bg-body-success rounded-4 shadow" style="color: white; text-decoration: none; margin-top: 1vh;width: 100%; height: 60px;"><button class="text-bg-success rounded mx-auto border-0 rounded" style="font-size: larger; width: 100%;height: 100%;"><i class="fa-solid fa-shop"></i>&nbsp;Cartile mele</button></a>
                 </div>
                 {% endif %}
                 <hr>
