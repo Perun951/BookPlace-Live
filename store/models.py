@@ -31,7 +31,7 @@ class Product(models.Model):
 
     user = models.ForeignKey(User, related_name='products',on_delete=models.CASCADE)
     category=models.ForeignKey(Category, related_name='products',on_delete=models.CASCADE)
-    title = models.CharField(max_length=40)
+    title = models.CharField(max_length=42)
     pdf = models.FileField(upload_to='uploads/pdfs/', blank=False, null=False ,  validators=[FileExtensionValidator(allowed_extensions=["pdf","epub"])])
     thumbnail = models.ImageField(upload_to='uploads/product_images/thumbnails/', blank=True, null= True)
     image = models.ImageField(upload_to='uploads/product_images/', blank=True, null=True)

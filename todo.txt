@@ -7,3 +7,7 @@
 -contact
 -nr downloads
 -fix products title
+-delete account
+-password reset
+-email login
+-
