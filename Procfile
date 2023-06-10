@@ -1,0 +1,1 @@
+web: gunicorn bookplace.wsgi --log-file -
