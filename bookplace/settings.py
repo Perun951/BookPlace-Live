@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-6rx_rtjd-8^x18s7j7^-ro9!bq7e@w=kk(q2-q@+exbe0ojc)9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
@@ -56,25 +56,25 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.sessions.mid]leware.SessionMiddleware',
+    'django.middleware.common.Co]monMiddleware',
+    'django.middleware.csrf.Csrf]iewMiddleware',
+    'django.contrib.auth.middlew]re.AuthenticationMiddleware',
+    'django.contrib.messages.mid]leware.MessageMiddleware',
+    'django.middleware.clickjack]ng.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'bookplace.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'django.templ]te.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
+            'context_processors'] [
+                'django.template]context_processors.debug',
+                'django.template]context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
