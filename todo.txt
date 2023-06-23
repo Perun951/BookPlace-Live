@@ -10,3 +10,4 @@
 -delete account
 -password reset
 -email login
+-deploy
