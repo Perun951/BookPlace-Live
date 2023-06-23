@@ -11,6 +11,8 @@ django-filter = "*"
 deepgram-sdk = "*"
 python-dotenv = "*"
 channels = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
