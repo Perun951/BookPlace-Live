@@ -66,7 +66,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'bookplace.urls'
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    "http://0.0.0.0",
+    "http://localhost",
+    "https://web-production-7c7f0.up.railway.app",
+]
 
 TEMPLATES = [
     {
