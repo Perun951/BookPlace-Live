@@ -66,6 +66,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'bookplace.urls'
 
+CSRF_TRUSTED_ORIGINS = ['*']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
