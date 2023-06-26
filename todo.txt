@@ -11,3 +11,4 @@
 -password reset
 -email login
 -deploy
+-buton stergere comentari
