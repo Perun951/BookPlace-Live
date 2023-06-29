@@ -12,3 +12,4 @@
 -email login
 -deploy
 -buton stergere comentari
+-admin interface
