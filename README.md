@@ -1,6 +1,8 @@
 # BookPlace
 ## Realizat de Boana Tudor Stefan si Jianu Luca Andrei Iancu
 
+## Link: https://web-production-7c7f0.up.railway.app/
+ 
 ## Despre proiect
 
 Proiectul prezinta o platforma ce are ca scop inmanarea accesului liber la informatii din domeniul public. Aceasta platforma combina o intrerfata intuitiva si sigura, astfel aducand totodata si o noua modalitate pentru scriitorii incepatori sa isi publice lucrarile din domeni variate.
