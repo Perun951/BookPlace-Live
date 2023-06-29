@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "85001551828863b4e3091c7fbddf53221bede835b6af5091d3806dad2fe7aa52"
+            "sha256": "45e49fb3eaff5a4e2d7c7393ece33fff59e5461f00180b725913d80240d6a592"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -232,11 +232,11 @@
         },
         "deepgram-sdk": {
             "hashes": [
-                "sha256:8d5c97dd1162f8af3e5afc27c55d434977eb7b07b6164bb807de93702b45df2f",
-                "sha256:c4b50e5ca48eb8552e634f4f05c53e60f0865dd40f347cb019cf2fca1e61c369"
+                "sha256:0b01beb09764f426cae94b31fd1ee11d77cf1da055f68488f03b375f06e3fec8",
+                "sha256:915c988ccb0ff25a335af203ca8bcb501cac3c900410a0a5c2253dcd11de1a1c"
             ],
             "index": "pypi",
-            "version": "==2.5.0"
+            "version": "==2.8.0"
         },
         "django": {
             "hashes": [
@@ -626,19 +626,11 @@
         },
         "typing-extensions": {
             "hashes": [
-                "sha256:88a4153d8505aabbb4e13aacb7c486c2b4a33ca3b3f807914a9b4c844c471c26",
-                "sha256:d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"
+                "sha256:5d8c9dac95c27d20df12fb1d97b9793ab8b2af8a3a525e68c80e21060c161771",
+                "sha256:935ccf31549830cda708b42289d44b6f74084d616a00be651601a4f968e77c82"
             ],
             "markers": "python_version < '3.11'",
-            "version": "==4.6.3"
-        },
-        "tzdata": {
-            "hashes": [
-                "sha256:11ef1e08e54acb0d4f95bdb1be05da659673de4acbd21bf9c69e94cc5e907a3a",
-                "sha256:7e65763eef3120314099b6939b5546db7adce1e7d6f2e179e3df563c70511eda"
-            ],
-            "markers": "sys_platform == 'win32'",
-            "version": "==2023.3"
+            "version": "==4.7.0"
         },
         "websockets": {
             "hashes": [
@@ -715,6 +707,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==11.0.3"
+        },
+        "whitenoise": {
+            "hashes": [
+                "sha256:15fe60546ac975b58e357ccaeb165a4ca2d0ab697e48450b8f0307ca368195a8",
+                "sha256:16468e9ad2189f09f4a8c635a9031cc9bb2cdbc8e5e53365407acf99f7ade9ec"
+            ],
+            "index": "pypi",
+            "version": "==6.5.0"
         },
         "yarl": {
             "hashes": [
