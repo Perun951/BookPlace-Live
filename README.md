@@ -47,6 +47,8 @@ Realizator backend utilizatori
 
 ## Framework-uri:
 + ### Django
++ ### Whitenoise
++ ### Gunicorn
 + ### Pillow
 + ### deepgram-sdk
 + ### python-dotenv
