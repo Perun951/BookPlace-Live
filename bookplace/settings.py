@@ -71,6 +71,7 @@ ROOT_URLCONF = 'bookplace.urls'
 CSRF_TRUSTED_ORIGINS = [
     "http://0.0.0.0",
     "http://localhost",
+    "https://bookplace-live.onrender.com",
 ]
 
 TEMPLATES = [
